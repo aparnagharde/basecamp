@@ -123,6 +123,7 @@ transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   border-bottom: 1px solid #f2f2f2;
   padding: 0 0 0 24px;
   background: url(http://html.inspirydemos.com/knowledgebase-html/images/standard.png) no-repeat 0 3px;
+      display: contents!important;
 }
 
 .bar{
