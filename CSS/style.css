@@ -123,8 +123,7 @@ transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   text-decoration: none;
   border-bottom: 1px solid #f2f2f2;
   padding: 0 0 0 24px;
-  background: url(https://www.pringleapi.com/Documents/4baf752b-ce76-40d9-8e27-074c9c75cac0/arrow-down.png) no-repeat 0 3px;
-      display: contents!important;
+
 }
 
 .bar{
