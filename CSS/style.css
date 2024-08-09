@@ -1,4 +1,6 @@
 
+/* Homepage */
+
 .pringleapikb-services-area {
 padding: 60px 0 90px;
 }
@@ -31,6 +33,9 @@ top: 0;
 width: 100%;
 height: 100%;
 }
+.pringleapikb-services-item .pringleapikb-services-link-1 {
+font-size: 12px;
+  }
 .pringleapikb-services-item .icon {
 width: 55px;
 height: 55px;
@@ -77,6 +82,11 @@ background: #6140ff;
   color: #fff;
 }
 
+/* Accordian */
+.accordion{
+  padding-top:20px;
+
+}
 .card-header {
  padding: 0px;
   margin-bottom: 0;
@@ -130,6 +140,9 @@ transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   background: #6140ff;
   padding: 15px;
 }
+.top-header {
+  display: flex;
+}
 
 .nav-pills .nav-link:hover {
 
@@ -140,4 +153,26 @@ transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   border-color: #ffffff;
   color: #000;
 
+}
+
+/* sidebar */
+
+.sidebar{
+  background-color:#6140ff; padding-top:20px;padding-bottom: 30px;
+  color:#fff;
+}
+
+.sidebar h4{
+  text-transform:uppercase;text-align:center; color: #fff;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgb(255 255 255);
+}
+
+.contact{
+  background: rgba(76, 76, 241, 0.1);
+  padding: 40px;
 }

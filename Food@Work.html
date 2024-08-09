@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome To PringleAPI Knowledge Base </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"  />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="bar">
+
+<div class="top-header">
+    <div class="col-lg-9">
+        <h5 class="text-white">Welcome To PringleAPI Knowledge Base </h5>
+    </div>
+    <div class="col-lg-3 text-right">
+        <div class="title-action">
+            <span class="badge badge-primary" title="Last Refresh">Last Refresh: 7/21/2024 3:12:12 PM</span>
+            <span class="badge badge-success" title="Processing Time in Seconds">Processing Time: 0 Seconds</span>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container" style="padding-top:20px;margin-bottom: 20px;">
+
+    <br>
+    <div class="row">
+        <div class="col-lg-12">
+            <ol class="breadcrumb">
+                <a href="index.html">Knowledge Base</a>&nbsp;» Manage Your Account
+            </ol>
+            <div class="container">
+              <div class="row">
+             
+                 <!-- navigation goes here -->
+        <div class="col-md-3 sidebar">
+          <h4>Categories</h4>
+          <hr>
+          <div aria-orientation="vertical" class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
+              <a class="nav-link" href="Manage-Account.html">Manage Your Account</a> 
+              <a class="nav-link" href="eAgent.html">eAgent - IVR &amp; Phone Orders</a> 
+              <a class="nav-link" href="Digital-Menu.html">Digital Menu Management</a>
+              <a class="nav-link" href="Customer-Engagement.html">Customer Engagement</a>
+              <a class="nav-link" href="Reports-And-Analytics.html">Reports &amp; Analytics</a>
+              <a class="nav-link" href="Website.html">Website Look &amp; Feel</a>
+              <a class="nav-link" href="Sales-Orders-Management.html">Sales Orders Management</a>
+              <a class="nav-link" href="Online-Ordering.html">Online Ordering Settings</a> 
+              <a class="nav-link active" href="Food@Work.html">Food@Work &amp; Delivery2Community</a> 
+              <a class="nav-link" href="Manage-Hardware-Assets.html">Manage Hardware Assets</a>
+              <a class="nav-link" href="Miscellaneous.html">Miscellaneous</a></div>
+      </div>
+                
+                   <!-- content goes here-->
+                   <div class="col-md-9" style="padding-top:20px;">
+                    <h4 style="text-transform:uppercase;">
+                      Food@Work &amp; Delivery2Community</h4>
+                    <hr>
+                    <div id="accordion">
+                      <div class="card" id="FoodatWork1">
+                        <div class="card-header" id="headingOne">
+                          <h5 class="mb-0">
+                            <a aria-controls="collapseOne" class="btn btn-link" data-target="#collapseOne" data-toggle="collapse"> How to create/update restricted menu for Food@Work or Catering Pages? </a></h5>
+                        </div>
+                        <div aria-labelledby="headingOne" class="collapse" data-parent="#accordion" id="collapseOne">
+                          <div class="card-body">
+                            <i><b>Last Updated: Apr 6, 2021</b></i><br>
+                            <br>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="popup-gallery" id="portfolio-item-container">
+                                  <div class="portfolio-item  push">
+                                    <a class="zoom-item" href="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_Update_RestrictedMenu.JPG" title=""><img alt="configol" class="img-responsive" src="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_Update_RestrictedMenu.JPG" width="100%"></a><br>
+                                    <a class="zoom-item" href="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_Update_RestrictedMenu1.JPG" title=""><img alt="configol" class="img-responsive" src="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_Update_RestrictedMenu1.JPG" width="100%"></a></div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <ul class="list-style list-disc">
+                                  <li>
+                                    <b>Step 1:</b> Go to "Digital Menu" on your PringleAPI Account</li>
+                                  <li>
+                                    <b>Step 2:</b> Click on "Categories"</li>
+                                  <li>
+                                    <b>Step 3:</b> For Food@Work, create a new category (Ex: Lunch Boxes) and then click on the pencil icon next to the category name</li>
+                                  <li>
+                                    <b>Step 4:</b> Get the “id=xxxxx” numerical value from the URL of the page
+                                    <ul class="list-style list-disc">
+                                      <li>
+                                        <b>Note: </b> Just the numerical value has to be copied</li>
+                                      <li>
+                                        <b>Ex: </b> Copy 29923 from the URL “<br>
+                                        https://www.pringleapi.com/MyAccount/<br>
+                                        AddEditMenuCategory?id=29923”</li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <b>Step 5:</b> Go to "Key Value Pairs" Tab</li>
+                                  <li>
+                                    <b>Step 6:</b> Enter the KeyValuePair "RestrictedMenu1"</li>
+                                  <li>
+                                    <b>Step 7:</b> Enter the code copied in step 4 in the variable value field. Multiple categories can be added separated by coma
+                                    <ul class="list-style list-disc">
+                                      <li>
+                                        <b>Ex: </b> 233347,288879,333333</li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <b>Step 8:</b> Click on "Add Key Value Pair"</li>
+                                  <li>
+                                    <b>Step 9:</b> Add "FoodAtWorkURL" in the Variable Key field</li>
+                                  <li>
+                                    <b>Step 10:</b> Select the menu template URL from the "Information" under "Digital Menu" tab in your PringleAPI account</li>
+                                  <li>
+                                    <b>Step 11:</b> Remove cartesse section from the URL and Add<br>
+                                    &amp;restrictedmenu=1&amp;promos=1&amp;offlineship=1&amp;FoodAtWork=1
+                                    <ul class="list-style list-disc">
+                                      <li>
+                                        <b>Ex: </b> https://www.pringleapi.com/PringleDigitalMenuClient/<br>
+                                        Template1?token=cbde398a-bcdef-40a8-8bcb-47fc77c86468&amp;&amp;restrictedmenu=1<br>
+                                        &amp;promos=1&amp;offlineship=1&amp;FoodAtWork=1</li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <b>Step 12:</b> Click on "Add Key Value Pair"</li>
+                                  <li>
+                                    <b>Step 13:</b> Follow the same steps for Mobile menu. Add “FoodAtWorkURLMobile” in the Variable Key Field. Follow the steps 10 to 12</li>
+                                  <li>
+                                    <b>Step 14:</b> To create a Delivery menu, follow the same steps to add "RestrictedMenu2"
+                                    <ul class="list-style list-disc">
+                                      <li>
+                                        <b>Note: </b> If the menu for Food@Work and Delivery2Community are same, skip the steps 1- 8</li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <b>Step 15:</b> In "Key Value Pairs" tab, Add Delivery2CommunityURL and CommunityDeliveryUrlMobile</li>
+                                  <li>
+                                    <b>Step 16:</b> Click on "Add Key Value Pair"</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card" id="FoodatWork2">
+                        <div class="card-header" id="headingTwo">
+                          <h5 class="mb-0">
+                            <a aria-controls="collapseTwo" class="btn btn-link" data-target="#collapseTwo" data-toggle="collapse"> How to create/update Drop Off Locations for Food@Work? </a></h5>
+                        </div>
+                        <div aria-labelledby="headingTwo" class="collapse" data-parent="#accordion" id="collapseTwo">
+                          <div class="card-body">
+                            <i><b>Last Updated: Apr 6, 2021</b></i><br>
+                            <br>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="popup-gallery" id="portfolio-item-container">
+                                  <div class="portfolio-item  push">
+                                    <a class="zoom-item" href="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_Update_DropOffPoints.JPG" title=""><img alt="configol" class="img-responsive" src="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_Update_DropOffPoints.JPG" width="100%"></a><br>
+                                    <a class="zoom-item" href="https://www.pringleapi.com/Documents/3359d596-be19-4ee9-9451-e55e1140bd9f/FoodAtWorkUpdated.png" title=""><img alt="configol" class="img-responsive" src="https://www.pringleapi.com/Documents/3359d596-be19-4ee9-9451-e55e1140bd9f/FoodAtWorkUpdated.png" width="100%"></a></div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <ul class="list-style list-disc">
+                                  <li>
+                                    <b>Step 1:</b> Go to "Food@Work" on your PringleAPI Account</li>
+                                  <li>
+                                    <b>Step 2:</b> Click on "Drop Off Points"</li>
+                                  <li>
+                                    <b>Step 3:</b> Click "Add New" to add a new location</li>
+                                  <li>
+                                    <b>Step 4:</b> Enter the Name of the Drop Off Location</li>
+                                  <li>
+                                    <b>Step 5:</b> Enter the Address of the Location
+                                    <ul class="list-style list-disc">
+                                      <li>
+                                        <b>Note: </b> Don’t enter name of the city and postal code in the Address line 1</li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <b>Step 6:</b> Enter the Postal Code</li>
+                                  <li>
+                                    <b>Step 7:</b> Select weekdays for the delivery of food to the location</li>
+                                  <li>
+                                    &nbsp;</li>
+                                  <li>
+                                    <b>Step 8:</b> Select the Cut off time for the location</li>
+                                  <li>
+                                    <b>Step 9:</b> Select the Cut off day for the location</li>
+                                  <li>
+                                    <b>Step 10:</b> Enter the number in the "#of Pre-order Days"
+                                    <ul class="list-style list-disc">
+                                      <li>
+                                        <b>Note: </b> Customer can preorder the food upto 14 days ahead of time. This can be restricted using this field</li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <b>Step 11:</b> Click on "Add Drop Off Point"</li>
+                                  <li>
+                                    <b>Step 11:</b> To update the existing drop off location, click on the pencil icon and make necessary changes</li>
+                                  <li>
+                                    <b>Step 12:</b> Click on "Update Drop off location"</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card" id="FoodatWork3">
+                        <div class="card-header" id="headingThree">
+                          <h5 class="mb-0">
+                            <a aria-controls="collapseThree" class="btn btn-link" data-target="#collapseThree" data-toggle="collapse"> How to create/update Drop Off Locations for Delivery2Community? </a></h5>
+                        </div>
+                        <div aria-labelledby="headingThree" class="collapse" data-parent="#accordion" id="collapseThree">
+                          <div class="card-body">
+                                           <div class="Video_link">
+                   <div class="col-md-6">
+                 <i><b>Last Updated: Apr 6, 2021</b></i></div>
+                  <div class="col-md-6 text-center">
+                  <a href="https://www.loom.com/share/aca419b0171d4ad9b9c7131428a409b7?sharedAppSource=team_library" target="_blank">CLICK HERE TO WATCH THE VIDEO .<i class="fa fa-external-link"></i></a>
+                </div></div><br>
+                            <br>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="popup-gallery" id="portfolio-item-container">
+                                  <div class="portfolio-item  push">
+                                    <a class="zoom-item" href="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_Update_DropOffPoints.JPG" title=""><img alt="configol" class="img-responsive" src="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_Update_DropOffPoints.JPG" width="100%"></a><br>
+                                    <a class="zoom-item" href="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_UPdate_Delivery2Community.JPG" title=""><img alt="configol" class="img-responsive" src="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_UPdate_Delivery2Community.JPG" width="100%"></a></div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <ul class="list-style list-disc">
+                                  <li>
+                                    <b>Step 1:</b> Go to "Food@Work" on your PringleAPI Account</li>
+                                  <li>
+                                    <b>Step 2:</b> Click on "Drop Off Points"</li>
+                                  <li>
+                                    <b>Step 3:</b> Click "Add New" to add a new location</li>
+                                  <li>
+                                    <b>Step 4:</b> Enter the Name of the Drop Off location
+                                    <ul class="list-style list-disc">
+                                      <li>
+                                        <b>Note:</b> At the end of the name, type in #DeliveryToCommunity#</li>
+                                      <li>
+                                        <b>Ex:</b> Westfield Inn#DeliveryToCommunity#</li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <b>Step 5:</b> Enter the Address of the Location
+                                    <ul class="list-style list-disc">
+                                      <li>
+                                        <b>Note:</b> Don’t enter name of the city and postal code in the Address line 1</li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <b>Step 6:</b> Enter the Postal Code</li>
+                                  <li>
+                                    <b>Step 7:</b> Select weekdays for the delivery of food to the location</li>
+                                  <li>
+                                    <b>Step 8:</b> Select the Cut off time of the order</li>
+                                  <li>
+                                    <b>Step 9:</b> Enter the number in the "#of Pre-order Days"
+                                    <ul class="list-style list-disc">
+                                      <li>
+                                        <b>Note:</b> Customer can pre order the food upto 14 days ahead of time. This can be restricted using this field</li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <b>Step 10:</b>Click on "Add Drop Off Point"</li>
+                                  <li>
+                                    <b>Step 11:</b>To update the existing drop off location, click on the pencil icon and make necessary changes</li>
+                                  <li>
+                                    <b>Step 12:</b>Click on "Update Drop off location"</li>
+                                </ul>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card" id="FoodatWork4">
+                        <div class="card-header" id="headingFour">
+                          <h5 class="mb-0">
+                            <a aria-controls="collapseFour" class="btn btn-link" data-target="#collapseFour" data-toggle="collapse"> How to view Food@Work or Delivery2Community Online Orders? </a></h5>
+                        </div>
+                        <div aria-labelledby="headingFour" class="collapse" data-parent="#accordion" id="collapseFour">
+                          <div class="card-body">
+                            <i><b>Last Updated: Apr 6, 2021</b></i><br>
+                            <br>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="popup-gallery" id="portfolio-item-container">
+                                  <div class="portfolio-item  push">
+                                    <a class="zoom-item" href="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_UPdate_OrdersReport.JPG" title=""><img alt="configol" class="img-responsive" src="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_UPdate_OrdersReport.JPG" width="100%"></a></div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <ul class="list-style list-disc">
+                                  <li>
+                                    <b>Step 1:</b> Go to "Food@Work" Tab on your PringleAPI Account</li>
+                                  <li>
+                                    <b>Step 2:</b> Click on "Orders Report"</li>
+                                  <li>
+                                    <b>Step 3:</b> Select the Date Range</li>
+                                  <li>
+                                    <b>Step 4:</b> Select "All Drop Off Points"</li>
+                                  <li>
+                                    <b>Step 5:</b> Click on "Search"</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card" id="FoodatWork5">
+                        <div class="card-header" id="headingFive">
+                          <h5 class="mb-0">
+                            <a aria-controls="collapseFive" class="btn btn-link" data-target="#collapseFive" data-toggle="collapse"> How to turn off/ turn on Food@Work &amp; Delivery2Community? </a></h5>
+                        </div>
+                        <div aria-labelledby="headingFive" class="collapse" data-parent="#accordion" id="collapseFive">
+                          <div class="card-body">
+                            <i><b>Last Updated: Apr 6, 2021</b></i><br>
+                            <br>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="popup-gallery" id="portfolio-item-container">
+                                  <div class="portfolio-item  push">
+                                    <a class="zoom-item" href="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_Update_TurnOff_Food@Work.JPG" title=""><img alt="configol" class="img-responsive" src="https://www.pringleapi.com/Documents/3b730de5-12c0-4e11-ae2b-d0a529138dbb/KB_Update_TurnOff_Food@Work.JPG" width="100%"></a></div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <ul class="list-style list-disc">
+                                  <li>
+                                    <b>Step 1:</b> Go to "Food@Work" Tab on your PringleAPI Account</li>
+                                  <li>
+                                    <b>Step 2:</b> Click on "Drop Off Point"</li>
+                                  <li>
+                                    <b>Step 3:</b> Click on Pencil icon for the location to edit</li>
+                                  <li>
+                                    <b>Step 4:</b> Uncheck the boxes of weekday for which it was Enabled</li>
+                                  <li>
+                                    <b>Step 5:</b> Click on "Update Drop Off Point"</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="bar"><div class="footer">
+    <div class="col-lg-12 text-center">
+        <a href="https://www.bistrostack.com" target="_blank">Powered By BistroStack™</a>- <a href="https://www.pringlesoft.com" target="_blank">A Product of Pringle Technologies Inc.</a>
+    </div>
+</div></div></body></html>
